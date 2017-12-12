@@ -3,3 +3,5 @@ projectunicorn-env
 *.pyo
 .idea
 *.sqlite3
+sballe-env/*
+sballe-env
