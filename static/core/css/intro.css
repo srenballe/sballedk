@@ -1,0 +1,36 @@
+.intro {
+    background-color: whitesmoke;
+    height: 500px;
+
+    margin-left: -15px;
+    margin-right: -15px;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: orange;
+    width: auto;
+    position: relative;
+}
+.photo {
+    height: 350px;
+    top: 150px;
+    left: 60%;
+    position: absolute;
+
+}
+
+.site-name {
+    position: absolute;
+    top: 250px;
+    left: 15%;
+
+}
+
+.list-style {
+    list-style-type: circle;
+}
