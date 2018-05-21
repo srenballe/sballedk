@@ -7,4 +7,5 @@ def home(request):
     context = {}
     context['project'] = Project.objects.all()
     context['text'] = Text.objects.all()
+    context['link'] = Link.objects.all()
     return render(request, 'core/index.html', { 'context' : context })

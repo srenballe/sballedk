@@ -9,7 +9,7 @@ See Django documentation for any attempt at implementation on your own system, a
 Use some sort of proxy in front of Gunicorn, such as Apache or Nginx. 
 
 ## Known faults
-The site is not 100% responsive, it scales weirdly when on smaller screens. I might have a look at it when I got the time.
+None atm.
 
 ## License
 GNU General Public License v3.0

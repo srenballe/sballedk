@@ -16,3 +16,10 @@ class Text(models.Model):
 
     def __str__(self):
         return self.title
+
+class Link(models.Model):
+    title = models.CharField(max_length=50)
+    url = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.title
